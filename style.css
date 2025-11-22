@@ -1,0 +1,449 @@
+body{
+    background-image: linear-gradient(to bottom,#121e27,#121e28);
+    overflow-x: hidden;
+}
+
+.navv{
+    display: flex;
+    justify-content: space-around;
+    background-color: #121e28;
+    color: white;
+    padding: 10px;
+}
+.bay h1{
+    .bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+.hom span{
+    margin-left: 1vw;
+}
+.nav-link:hover{
+    text-shadow: 4px 4px 8px black;
+    /* background-color: #fe715c; */
+    box-shadow: 0px 0px 10px #fe715c;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.hom span a{
+    text-decoration: none;
+    color: white;
+}
+.hello{
+    color: white;
+    margin-top: 5vh;
+    margin-left: 7vw;
+    font-size: 50px;
+}
+.hello b{
+    color: #ed7d71;
+    margin-left: -0.8vw;
+}
+.babs{
+    display: flex;
+    justify-content: space-between;
+}
+.pics{
+    width: 290px;
+    height: 290px;
+    border-radius: 290px;
+    border: 10px solid #fe715c;
+    margin-right: 10vw;
+    margin-top: 7vh;
+    background-image: url(./images/Snapchat-963512659-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* animation: rotate 3s infinite linear; */
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate (360deg);
+    }
+    
+}
+
+
+.line{
+    height: 0.5vh;
+    width: 10vw;
+    border: 2px solid #ed7d71;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    color: white;
+    
+}
+.soft{
+    margin-left: 7vw;
+    font-size: 30px;
+}
+.but-big{
+    display: flex;
+    gap: 1vw;
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
+.but-1{
+    width: 10vw;
+    height: 7vh;
+    background-color: #fe715c;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.but-1:hover{
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 2px 2px 10px #94184c;
+    padding: 10px;
+}
+.but-1{
+    animation: bounce 2s infinite;
+}
+@keyframes bounce{
+    0%,100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+}
+.but-2{
+    width: 10vw;
+    height: 7vh;
+    background-color: #121e27;
+    border: 2px solid #9e5046;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.but-2{
+    animation: bounce 2s infinite;
+}
+@keyframes bounce{
+    0%,100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+}
+.but-2:hover{
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 2px 2px 10px #94184c;
+    padding: 10px;
+}
+.pro{
+    width: 100vw;
+    height: 5vh;
+    background-image: linear-gradient( 60deg, #17232d,#f2f2f2);
+    margin-top: 5vh;
+    color: #48494b;
+    cursor: pointer;
+}
+.pro{
+    animation: bounce 2s infinite;
+}
+@keyframes bounce{
+    0%,100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+}
+.pro .lis{
+    display: flex;
+    gap: 12vw;
+    margin-left: 1vw;
+    padding-top: 0.5vw;
+}
+.pro .lis b{
+    text-decoration: none;
+    font-size: 15px;
+    color: #4b494b;
+    cursor: pointer;
+
+}
+.num1{
+    margin-top: 5vh;
+    margin-left: 7vw;
+    display: flex;
+    align-items: center;
+}
+.box2 span{
+    font-size: 15px;
+}
+.box1{
+    width: 2vw;
+    height: 10vh;
+    border: 2px solid #fe715c;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+.boxx{
+    flex-direction: column;
+    gap: 10px;
+}
+.pop{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #fe715c;
+    margin-top: 1vh;
+    margin-left: -0.3vw;
+}
+.big-div{
+    display: flex;
+    
+}
+.about{
+    margin-left: -20vw;
+    margin-top: 7vh;
+}
+.about{
+    width: 30vw;
+    height: 60vh;
+    border: 8px solid #94184c;
+    border-radius: 150px 0px 170px 0px;
+    color: white;
+    background-color: #121e27;
+    box-shadow: 2px 8px 8px 2px #fe715c;
+}
+.about{
+    animation: bounce 2s infinite;
+}
+.social{
+    justify-items: center;
+    margin-top: 10vh;
+}
+@keyframes bounce{
+    0%,100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+}
+
+.about h1{
+    font-size: 40px;
+    font-family: monospace;
+}
+.about-text{
+    justify-items: center;
+    
+}
+.about-tex{
+    margin-left: 7vw;
+}
+.about-text p{
+    font-size: 13.5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.rotating {
+    box-shadow: 4px 20px 20px #06b632;
+    border-radius: 20px;
+    transform: rotate(0deg);
+    animation: rotate 1s infinite linear;
+}
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.baba-div{
+    justify-content: center;
+    display: flex;
+    margin-top: 7vh;
+    gap: 20px;
+    animation: bounce 2s infinite;
+}
+.pro1{
+    width: 28vw;
+    height: 60vh;
+    background-image: linear-gradient( #94184c,#fe715c);
+    border: 2px solid darkblue;
+    border-radius: 10px 0px 10px 0px;
+    padding: 10px 15px;
+}
+.pro1 button{
+    width: 10vw;
+    height: 5vh;
+}
+.pro2{
+    width: 28vw;
+    height: 60vh;
+    border: 2px solid gold;
+    border-radius: 10px;
+    background-image: linear-gradient( 360deg, #94184c,#fe715c);
+    padding: 10px 15px;
+}
+.pro2 button{
+    width: 10vw;
+    height: 5vh;
+}
+.pro3{
+    width: 28vw;
+    height: 60vh;
+    border-radius: 0px 10px 0px 10px;
+    border: 2px solid aqua;
+    background-image: linear-gradient( 90deg, #94184c,#fe715c);
+    padding: 10px 15px;
+}
+.pro3 button{
+    width: 10vw;
+    height: 5vh;
+}
+.scr1{
+    width: 25vw;
+    height: 37vh;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 4px 10px 10px purple;
+    background-image: url(./images/Screenshot\ 2025-11-22\ 131537.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.scr2{
+    width: 25vw;
+    height: 37vh;
+    box-shadow: 4px 10px 10px rgb(2, 54, 13);
+    background-color: rgb(10, 172, 47);
+    border-radius: 10px;
+    background-image: url(./images/Artboard\ 1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scr3{
+    width: 25vw;
+    height: 37vh;
+    box-shadow: 4px 10px 10px rgb(177, 4, 4);
+    background-color: black;
+    border-radius: 10px;
+    background-image: url(./images/Screenshot\ 2025-11-22\ 131920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.last{
+    animation: bounce 2s infinite;
+}
+
+
+
+
+@media (max-width:768px) {
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+       
+    }
+    .hello{
+        justify-self: center;
+        font-size: 80px;
+    }
+    .dis{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .line{
+        width: 30vw;
+    }
+    .dis,.ade{
+        font-size: 50px;
+    }
+    .soft{
+        justify-self: center;
+        font-size: 50px;
+    }
+    .but-big{
+        justify-self: center;
+    }
+    .but-1{
+        width: 22vw;
+    }
+    .but-2{
+        width: 22vw;
+    }
+    .pro{
+        width: 100vw;
+    }
+    .pro .lis{
+        gap: 9vw;
+    }
+    .babs{
+        flex-direction: column;
+    }
+    .pics{
+        margin-left: 30vw;
+    }
+    .num1{
+        display: none;
+    }
+    .big-div{
+        display: block;
+    }
+    .about{
+        justify-self: center;
+        margin-left: 5vw;
+    }
+    
+    .about .abou{
+        width: 50vw;
+        /* font-size: 20px; */
+        margin-left: 0.5vw;
+    }
+    .about-inn{
+        margin-left: -0.5vw;
+    }
+    .about{
+        border-radius: 100px 0px 100px 0px;
+        width: 60vw;
+        height: 65vh;
+    }
+    .baba-div{
+        flex-direction: column;
+        margin-left: 10vw;
+    }
+    .pro1{
+        width: 70vw;
+    }
+    .scr1{
+        width: 60vw;
+    }
+    .pro1 button{
+        width: 22vw;
+    }
+    .pro2{
+        width: 70vw;
+    }
+    .pro2 button{
+        width: 22vw;
+    }
+    .scr2{
+        width: 60vw;
+    }
+    .pro3{
+        width: 70vw;
+    }
+    .pro3 button{
+        width: 22vw;
+    }
+    .scr3{
+        width: 60vw;
+    }
+}
