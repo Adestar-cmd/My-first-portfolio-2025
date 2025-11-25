@@ -57,17 +57,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    /* animation: rotate 3s infinite linear; */
+    animation: bounce 2s infinite linear;
 }
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate (360deg);
-    }
-    
-}
+
 
 
 .line{
@@ -445,5 +437,8 @@ body{
     }
     .scr3{
         width: 60vw;
+    }
+    .about{
+        height: auto;
     }
 }
