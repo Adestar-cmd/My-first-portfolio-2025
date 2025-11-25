@@ -413,6 +413,7 @@ body{
     }
     .pro1{
         width: 70vw;
+        height: auto;
     }
     .scr1{
         width: 60vw;
@@ -422,6 +423,7 @@ body{
     }
     .pro2{
         width: 70vw;
+        height: auto;
     }
     .pro2 button{
         width: 22vw;
@@ -431,6 +433,7 @@ body{
     }
     .pro3{
         width: 70vw;
+        height: auto;
     }
     .pro3 button{
         width: 22vw;
